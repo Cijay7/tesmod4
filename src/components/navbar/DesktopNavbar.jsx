@@ -4,8 +4,8 @@ import logoUrl from '../../assets/LOGORN.png';
 export default function DesktopNavbar({ currentPage, onNavigate }) {
   const navItems = [
     { id: 'home', label: 'Beranda' },
-    { id: 'makanan', label: 'Makanan' },
-    { id: 'minuman', label: 'Minuman' },
+    { id: 'makanan', label: 'Makanan dan Minuman' },
+    { id: 'minuman', label: 'Favorite' },
     { id: 'profile', label: 'Profile' }
   ];
 
